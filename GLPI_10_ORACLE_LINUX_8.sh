@@ -25,7 +25,7 @@ dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 dnf install 'dnf-command(config-manager)' &&
 dnf -y module install php:remi-7.4 &&
 dnf -y install yum-plugin-copr && dnf -y copr enable ligenix/enterprise-glpi &&
-dnf -y install glpi &&
+dnf -y install httpd glpi &&
 dnf -y install php-pecl-apcu php-soap php-xmlrpc php-pecl-zendopcache php-snmp php-opcache &&
 dnf -y install php-sodium php-pear* &&
 dnf -y install certbot python3-certbot-apache
