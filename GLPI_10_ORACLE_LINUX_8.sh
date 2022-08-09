@@ -1,5 +1,8 @@
 #----------------------------------------------------------------------------
 #   INSTALACAO AUTOMATIZADA GLPI 10 NO ORACLE LINUX 8 + BASE DE HOMOLOGACAO
+#   
+#   Download da ISO (INSTALACAO EM MINIMAL INSTALL): 
+#   https://yum.oracle.com/ISOS/OracleLinux/OL8/u5/x86_64/OracleLinux-R8-U5-x86_64-dvd.iso
 #----------------------------------------------------------------------------
 #
 #  Desenvolvido por: Service TIC Solucoes Tecnologicas
@@ -25,7 +28,8 @@ dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 dnf install 'dnf-command(config-manager)' &&
 dnf -y module install php:remi-7.4 &&
 dnf -y install yum-plugin-copr && dnf -y copr enable ligenix/enterprise-glpi &&
-dnf -y install httpd glpi &&
+dnf -y install glpi &&
+dnf -y install httpd &&
 dnf -y install php-pecl-apcu php-soap php-xmlrpc php-pecl-zendopcache php-snmp php-opcache &&
 dnf -y install php-sodium php-pear* &&
 dnf -y install certbot python3-certbot-apache
@@ -46,17 +50,17 @@ echo "#-----------------------------------------#"
 echo   "HABILITANDO INICIO DO SERVIÇO NO BOOT"
 echo "#-----------------------------------------#"
 #
-systemctl enable --now httpd
-systemctl enable --now firewalld
+systemctl enable --now httpd &&
+systemctl enable --now firewalld &&
 #
 clear
 echo "#-----------------------------------------#"
 echo "ATIVANDO E LIBERANDO A PORTA 80-443/TCP NO FIREWALL"
 echo "#-----------------------------------------#"
-firewall-cmd --permanent --add-port=80/tcp
-firewall-cmd --permanent --add-port=443/tcp 
-firewall-cmd --reload 
-systemctl restart firewalld
+firewall-cmd --permanent --add-port=80/tcp &&
+firewall-cmd --permanent --add-port=443/tcp &&
+firewall-cmd --reload &&
+systemctl restart firewalld &&
 #
 clear
 echo "#-----------------------------------------#"
@@ -118,7 +122,7 @@ clear
 echo "#-----------------------------------------#"
 echo           "REINICIANDO APACHE"
 echo "#-----------------------------------------#"
-systemctl restart httpd
+systemctl restart httpd &&
 #
 clear
 echo "#-----------------------------------------#"
