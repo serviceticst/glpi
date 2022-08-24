@@ -13,6 +13,8 @@
 #           Twitter: https://twitter.com/serviceticst
 #           YouTube: https://youtube.com/c/serviceticst
 #
+#              Blog: https://servicetic.com.br/intalacao-automatizada-do-glpi-9-5-6-no-debian-11
+#           YouTube: https://www.youtube.com/watch?v=UZ7ndo45gic&list=PLwXxs1htu2adKC2f9mH1mx0HZ0qKJgnqw
 #-------------------------------------------------
 #
 clear
