@@ -15,6 +15,9 @@
 #           YouTube: https://youtube.com/c/serviceticst
 #            GitHub: https://github.com/serviceticst
 #
+#              Blog: https://servicetic.com.br/glpi-10-instalacao-automatizada-no-oracle-linux-8
+#           YouTube: https://www.youtube.com/watch?v=G-NSQNW7GyU&list=PLwXxs1htu2adKC2f9mH1mx0HZ0qKJgnqw&index
+#           
 #-------------------------------------------------
 #
 clear
