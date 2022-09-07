@@ -27,11 +27,11 @@ apt -y install bzip2 curl mycli wget ntp
 #
 clear
 echo "#------------------------------------------#"
-echo             "BAIXANDO GLPI 9.5.6" 
+echo             "BAIXANDO GLPI 9.5.8" 
 echo "#------------------------------------------#"
 #
-wget -4 https://github.com/glpi-project/glpi/releases/download/9.5.6/glpi-9.5.6.tgz
-tar xvf  glpi-9.5.6.tgz -C /usr/share
+wget -4 https://github.com/glpi-project/glpi/releases/download/9.5.8/glpi-9.5.8.tgz
+tar xvf  glpi-9.5.8.tgz -C /usr/share
 chown  www-data. -Rf /usr/share/glpi/
 #
 clear
