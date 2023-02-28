@@ -2,6 +2,8 @@
 
 ## Script para instalação automatizada do GLPI 10.0.2 no Oracle Linux 8
 
+## Script para instalação automatizada de alguns plugins do GLPI 10
+
 
 ######  Desenvolvido por: Service TIC Solucoes Tecnológicas
 ######            E-mail: contato@servicetic.com.br
