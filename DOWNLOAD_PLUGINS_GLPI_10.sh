@@ -172,14 +172,6 @@ rm -Rf glpi-tasklists-2.0.3.tar.bz2
 #
 clear
 echo "#--------------------------------------------------------#"
-echo        "INSTALANDO O PLUGIN DASHBOARD(painel)"
-echo "#--------------------------------------------------------#"
-wget https://github.com/99net/glpi-dashboard/releases/download/10.0.0/dashboard.zip
-unzip dashboard.zip &&
-rm -Rf dashboard.zip
-#
-clear
-echo "#--------------------------------------------------------#"
 echo          "INSTALANDO O PLUGIN NEWS (alertas)"
 echo "#--------------------------------------------------------#"
 wget https://github.com/pluginsGLPI/news/releases/download/1.10.5/glpi-news-1.10.5.tar.bz2
