@@ -4,6 +4,8 @@
 
 ## Script para instalação automatizada de alguns plugins do GLPI 10
 
+## Script para backup e restore do banco do glpi na base de produção para base de teste
+
 
 ######  Desenvolvido por: Service TIC Solucoes Tecnológicas
 ######            E-mail: contato@servicetic.com.br
