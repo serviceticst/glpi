@@ -53,7 +53,7 @@ url=$(wget -qO- https://github.com/glpi-project/glpi/releases/latest | grep -o '
 file_name=$(basename "$url")
 wget "$url"
 tar xvf "$file_name" -C /usr/share
-rm "$file_name"
+rm -Rf "$file_name"
 #
 clear
 echo "#------------------------------------------#"
