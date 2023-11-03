@@ -29,7 +29,7 @@ dnf install -y dnf-utils yum-utils nano telnet traceroute net-tools unzip bzip2 
 dnf -y install https://rpms.remirepo.net/enterprise/remi-release-8.rpm &&
 dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm &&
 dnf install 'dnf-command(config-manager)' &&
-dnf -y module install php:remi-7.4 &&
+dnf -y module install php:remi-8.0 &&
 dnf -y install yum-plugin-copr && dnf -y copr enable ligenix/enterprise-glpi &&
 dnf -y install glpi &&
 dnf -y install httpd &&
