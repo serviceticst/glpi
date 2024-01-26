@@ -26,23 +26,23 @@ export DEBIAN_FRONTEND=noninteractive && apt -y install apache2 && a2enmod rewri
 #
 clear
 echo "#------------------------------------------#"
-echo           "HABILITANDO PHP 8.0" 
+echo           "HABILITANDO PHP 8.1" 
 echo "#------------------------------------------#"
 #
 apt install -y apt-transport-https lsb-release software-properties-common ca-certificates
 echo | add-apt-repository ppa:ondrej/php
-apt install php8.0 -y  
+apt install php8.1 -y  
 #
 clear
 echo "#------------------------------------------#"
 echo           "INSTALANDO DEPENDENCIAS" 
 echo "#------------------------------------------#"
 #
-apt -y install php8.0 php8.0-soap php8.0-apcu php8.0-cli php8.0-common php8.0-curl php8.0-gd php8.0-imap php8.0-ldap php8.0-mysql php8.0-snmp php8.0-xmlrpc php8.0-xml php8.0-intl php8.0-zip php8.0-bz2 php8.0-mbstring php8.0-bcmath 
-apt -y install php8.0-fpm && systemctl enable php8.0-fpm
+apt -y install php8.1 php8.1-soap php8.1-apcu php8.1-cli php8.1-common php8.1-curl php8.1-gd php8.1-imap php8.1-ldap php8.1-mysql php8.1-snmp php8.1-xmlrpc php8.1-xml php8.1-intl php8.1-zip php8.1-bz2 php8.1-mbstring php8.1-bcmath 
+apt -y install php8.1-fpm && systemctl enable php8.1-fpm
 apt -y install bzip2 curl mycli wget ntp libarchive-tools
 service apache2 restart
-service php8.0-fpm restart
+service php8.1-fpm restart
 #
 clear
 echo "#------------------------------------------#"
@@ -221,12 +221,12 @@ echo "#-----------------------------------------#"
 echo               "AJUSTE PHP.INI"
 echo "#-----------------------------------------#"
 #
-sed -i 's/;date.timezone =/date.timezone = America\/Sao_Paulo/' /etc/php/8.0/apache2/php.ini
-sed -i 's/^upload_max_filesize = 2M/upload_max_filesize = 100M/' /etc/php/8.0/apache2/php.ini
-sed -i 's/^memory_limit = 128M/memory_limit = 512M/' /etc/php/8.0/apache2/php.ini
-sed -i 's/;*session.cookie_httponly =.*/session.cookie_httponly = on/' /etc/php/8.0/apache2/php.ini
+sed -i 's/;date.timezone =/date.timezone = America\/Sao_Paulo/' /etc/php/8.1/apache2/php.ini
+sed -i 's/^upload_max_filesize = 2M/upload_max_filesize = 100M/' /etc/php/8.1/apache2/php.ini
+sed -i 's/^memory_limit = 128M/memory_limit = 512M/' /etc/php/8.1/apache2/php.ini
+sed -i 's/;*session.cookie_httponly =.*/session.cookie_httponly = on/' /etc/php/8.1/apache2/php.ini
 systemctl restart apache2
-service php8.0-fpm restart
+service php8.1-fpm restart
 systemctl enable apache2
 #
 clear
