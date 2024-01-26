@@ -27,7 +27,7 @@ a2enmod rewrite
 #
 clear
 echo "#------------------------------------------#"
-echo           "HABILITANDO PHP 8.0" 
+echo           "HABILITANDO PHP 8.1" 
 echo "#------------------------------------------#"
 #
 apt install -y lsb-release ca-certificates apt-transport-https software-properties-common gnupg2
