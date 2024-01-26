@@ -34,10 +34,10 @@ apt install -y lsb-release ca-certificates apt-transport-https software-properti
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/sury-php.list
 wget -qO - https://packages.sury.org/php/apt.gpg | apt-key add -
 apt -y update 
-apt -y install php8.0
-apt-cache policy php8.0
-ls /etc/apache2/mods-available/ | grep php8.0
-a2enmod php8.0
+apt -y install php8.1
+apt-cache policy php8.1
+ls /etc/apache2/mods-available/ | grep php8.1
+a2enmod php8.1
 #
 clear
 echo "#------------------------------------------#"
