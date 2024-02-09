@@ -108,7 +108,7 @@ chown -Rf apache:apache /var/lib/glpi/files
 chown -Rf apache:apache /usr/share/glpiteste
 chown -Rf apache:apache /etc/glpiteste
 chown -Rf apache:apache /var/log/glpiteste
-chown -Rf apache:apache /var/lib/glpi/filesteste
+chown -Rf apache:apache /var/lib/glpiteste/files
 #
 clear
 echo "#-----------------------------------------#"
