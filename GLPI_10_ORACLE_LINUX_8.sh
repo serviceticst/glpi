@@ -43,8 +43,8 @@ echo  "BAIXANDO O GLPI 10 E COPIANDO ARQUIVO DOWNSTREAM"
 echo "#-----------------------------------------#"
 cd /tmp
 mv /usr/share/glpi /usr/share/glpi95
-wget https://github.com/glpi-project/glpi/releases/download/10.0.2/glpi-10.0.2.tgz
-tar -zxvf glpi-10.0.2.tgz
+wget https://github.com/glpi-project/glpi/releases/download/10.0.12/glpi-10.0.12.tgz
+tar -zxvf glpi-10.0.12.tgz
 mv glpi /usr/share/
 cp -Rfp /usr/share/glpi95/inc/downstream.php /usr/share/glpi/inc/
 #
@@ -77,8 +77,11 @@ clear
 echo "#-----------------------------------------#"
 echo        "AJUSTANDO PHP.INI E GLPI.CONF"
 echo "#-----------------------------------------#"
-sed -i '846s/^/#/' /etc/php.ini
-sed -i 847i'upload_max_filesize = 25M' /etc/php.ini
+sed -i 's/;date.timezone =/date.timezone = America\/Sao_Paulo/g' /etc/php.ini
+sed -i 's/upload_max_filesize = .*/upload_max_filesize = 100M/g' /etc/php.ini
+sed -i 's/memory_limit = .*/memory_limit = 512M/g' /etc/php.ini
+sed -i 's/;session.cookie_httponly =/session.cookie_httponly = on/g' /etc/php.ini
+sed -i 's/post_max_size = .*/post_max_size = 512M/g' /etc/php.ini
 sed -i '28s/^/#/' /etc/httpd/conf.d/glpi.conf
 sed -i '34s/^/#/' /etc/httpd/conf.d/glpi.conf
 #
@@ -125,7 +128,7 @@ clear
 echo "#-----------------------------------------#"
 echo           "REINICIANDO APACHE"
 echo "#-----------------------------------------#"
-systemctl restart httpd &&
+systemctl restart httpd php-fpm 
 #
 clear
 echo "#-----------------------------------------#"
