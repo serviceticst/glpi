@@ -1,6 +1,6 @@
 # 🧩 Scripts para ferramenta do GLPI
-- Este repositório contém scripts do GLPI desenvolvidos pela equipe da Service TIC.
-- A cada release, disponibilizamos novos scripts e possíveis atualizações dos existentes.
+- Este repositório reúne scripts para GLPI desenvolvidos pela equipe da Service TIC.
+- A cada nova versão, disponibilizamos novos scripts e atualizações para os existentes, visando aprimorar a automação e a gestão da plataforma.
 
 
 ### 📋 Lista de Scripts
@@ -10,7 +10,7 @@
 
 ## 🧩 Scripts for the GLPI tool
 - This repository contains GLPI scripts developed by the Service TIC team.
-- With each release, we provide new scripts and possible updates to existing ones.
+- With each new release, we provide additional scripts and updates to existing ones to enhance platform automation and management.
 
 ### 📋 Scripts List
 
