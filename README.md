@@ -8,7 +8,7 @@
 
 ***
 
-## 🧩 Scripts for GLPI tool
+## 🧩 Scripts for the GLPI tool
 - This repository contains GLPI scripts developed by the Service TIC team.
 - With each release, we provide new scripts and possible updates to existing ones.
 
