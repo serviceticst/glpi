@@ -4,8 +4,8 @@
 
 
 ### 📋 Lista de Scripts
-- 📥 [1.0.0: Instalação automatizada do GLPI no Oracle Linux 8](https://github.com/serviceticst/glpi/releases/tag/1.0.0)
-- 📥 [1.0.1: Instalação automatizada do GLPI no Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/1.0.1)
+- 📥 [10.0.0: Instalação automatizada do GLPI no Oracle Linux 8](https://github.com/serviceticst/glpi/releases/tag/10.0.0)
+- 📥 [10.0.1: Instalação automatizada do GLPI no Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/10.0.1)
 
 ***
 
@@ -15,8 +15,8 @@
 
 ### 📋 Scripts List
 
-- 📥 [1.0.0: Automated GLPI Installation on Oracle Linux 8](https://github.com/serviceticst/glpi/releases/tag/1.0.0)
-- 📥 [1.0.1: Automated GLPI Installation on Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/1.0.9)
+- 📥 [10.0.0: Automated GLPI Installation on Oracle Linux 8](https://github.com/serviceticst/glpi/releases/tag/10.0.0)
+- 📥 [10.0.1: Automated GLPI Installation on Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/10.0.9)
 
 
 
