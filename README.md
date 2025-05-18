@@ -1,7 +1,7 @@
-# 🇧🇷 🧩 Scripts para ferramenta do [GLPI](https://glpi-project.org/pt-br)
+# 🇧🇷 🧩 Scripts para ferramenta [GLPI](https://glpi-project.org/pt-br)
 
 - Este repositório reúne scripts para GLPI desenvolvidos pela equipe da Service TIC.
-- A cada nova versão, disponibilizamos novos scripts e atualizações para os existentes, visando aprimorar a automação e a gestão da plataforma.
+- A cada nova versão, disponibilizamos novos scripts e atualizações para os existentes, visando aprimorar a automação e a gestão da ferramenta.
 
 
 ### 📋 Lista de Scripts
@@ -12,9 +12,9 @@
 
 ***
 
-## 🇺🇸 🧩 Scripts for the [GLPI](https://glpi-project.org/pt-br) tool
+## 🇺🇸 🧩 Scripts for [GLPI](https://glpi-project.org/pt-br) tool
 - This repository contains GLPI scripts developed by the Service TIC team.
-- With each new release, we provide additional scripts and updates to existing ones to enhance platform automation and management.
+- With each new release, we provide additional scripts and updates to existing ones to enhance tool automation and management.
 
 ### 📋 Scripts List
 
