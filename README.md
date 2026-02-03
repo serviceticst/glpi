@@ -9,7 +9,8 @@
 - 📥 [Instalação automatizada do GLPI no Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/10.0.1)
 - 📥 [Instalação automatizada do GLPI no Debian 12](https://github.com/serviceticst/glpi/releases/tag/10.1.0)
 - 📥 [Instalação automatizada do GLPI no Ubuntu 22.04](https://github.com/serviceticst/glpi/releases/tag/10.2.0)
-- 📥 [Instalação do GLPI com Docker+Volume para testes rápidos](https://github.com/serviceticst/glpi/releases/tag/10.3.0)
+- 📥 [Instalação do GLPI 10 com Docker+Volume para testes rápidos](https://github.com/serviceticst/glpi/releases/tag/10.3.0)
+- 📥 [Instalação do GLPI 11 com Docker+Volume para testes rápidos](https://github.com/serviceticst/glpi/releases/tag/10.4.0)
 
 ***
 
@@ -23,7 +24,8 @@
 - 📥 [Automated GLPI Installation on Oracle Linux 9](https://github.com/serviceticst/glpi/releases/tag/10.0.1)
 - 📥 [Automated GLPI Installation on Debian 12](https://github.com/serviceticst/glpi/releases/tag/10.1.0)
 - 📥 [Automated GLPI Installation on Ubuntu 22.04](https://github.com/serviceticst/glpi/releases/tag/10.2.0)
-- 📥 [Install GLPI with Docker + Volume for quick testing](https://github.com/serviceticst/glpi/releases/tag/10.3.0)
+- 📥 [Install GLPI 10 with Docker + Volume for quick testing](https://github.com/serviceticst/glpi/releases/tag/10.3.0)
+- 📥 [Install GLPI 11 with Docker + Volume for quick testing](https://github.com/serviceticst/glpi/releases/tag/10.4.0)
 
 
 ***
